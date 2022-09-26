@@ -34,8 +34,8 @@
 public class CrossbodyBag extends Bag{
 
     /**
-     * Creates a new CrossbodyBag with the given color and
-     * capacity.
+     * Creates a new CrossbodyBag with the given color,
+     * capacity and number of straps.
      *
      * @param color
      * @param capacity
