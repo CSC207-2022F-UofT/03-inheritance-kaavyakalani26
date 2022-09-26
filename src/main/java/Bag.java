@@ -18,7 +18,7 @@ public abstract class Bag {
     private String color;
     private int numberOfContents;
     private int capacity;
-    ArrayList<String> contents = new ArrayList<String>();
+    private ArrayList<String> contents;
 
 
 
@@ -37,6 +37,7 @@ public abstract class Bag {
         this.color = color;
         this.capacity = capacity;
         this.numberOfContents = 0;
+        this.contents = new ArrayList<String>();
     }
 
 
